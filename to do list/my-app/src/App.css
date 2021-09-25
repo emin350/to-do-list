@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box; 
+}
+
+header {
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+input,button {
+    padding: 0.5rem;
+    margin-left:10px;
+    font-size: 1rem;
+}
+
+.messages {
+    width:80%;
+    margin:auto;
+}
+
+ul {
+    width: 50%;
+    margin: auto;
+    list-style: none;
+}
+
+ul li {
+    background-color: lightgray;
+    padding: 0.5rem;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
